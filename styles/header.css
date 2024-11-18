@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: black;
+    position: relative;
+}
+.esquerdo{
+    display: flex;
+    align-items: center;
+}
+
+.menu-toggle {
+    display: flex; /* Escondido em telas grandes */
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+    z-index: 999;
+    filter: drop-shadow(0px 1px 2px black);
+}
+
+.menu-toggle .bar {
+    width: 34px;
+    height: 4px;
+    background: white;
+    transition: transform 0.3s ease;
+}
