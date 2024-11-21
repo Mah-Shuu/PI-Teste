@@ -7,12 +7,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to bottom, black 0%, black 10%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0) 100%);
     position: relative;
     height: 95px;
 }
+
 .esquerdo{
-    background-image: linear-gradient(to right bottom, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(177deg, black 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
     display: flex;
     height: 100%;
     width: 50%;
@@ -22,7 +23,7 @@ header {
 }
 
 .esquerdo img{
-    filter: drop-shadow(0px 0px 3px black);
+    filter: drop-shadow(0px 0px 2px black);
 }
 
 .menu-toggle {
@@ -44,7 +45,7 @@ header {
 .direito{
     width: 50%;
     height: 100%;
-    background-image: linear-gradient(to left bottom, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(183deg, black 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
     padding-right: 38px;
     display: flex;
     flex-direction: row-reverse;
